@@ -1,1 +1,4 @@
 ChatMe/GoogleService-Info.plist
+# Firebase configuration
+GoogleService-Info.plist
+**/GoogleService-Info.plist
