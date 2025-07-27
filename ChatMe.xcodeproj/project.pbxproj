@@ -16,9 +16,33 @@
 		F63F6D052E35EAF400D2A115 /* ChatMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F63F6D492E36305600D2A115 /* Exceptions for "ChatMe" folder in "ChatMe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				README.md,
+			);
+			target = F63F6D042E35EAF400D2A115 /* ChatMe */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		F63F6D4A2E36305600D2A115 /* Exceptions for "ChatMe" folder in "Compile Sources" phase from "ChatMe" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = F63F6D012E35EAF400D2A115 /* Sources */;
+			membershipExceptions = (
+				README.md,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F63F6D072E35EAF400D2A115 /* ChatMe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F63F6D492E36305600D2A115 /* Exceptions for "ChatMe" folder in "ChatMe" target */,
+				F63F6D4A2E36305600D2A115 /* Exceptions for "ChatMe" folder in "Compile Sources" phase from "ChatMe" target */,
+			);
 			path = ChatMe;
 			sourceTree = "<group>";
 		};
